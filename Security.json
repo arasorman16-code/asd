@@ -1,1 +1,24 @@
 
+{
+  "koruma_mimarisi": {
+    "gizlilik": {
+      "algoritma": "AES-256-CBC",
+      "mod": "CBC",
+      "iv": "f8d3a9e2b7c4165f9a2d4e7b1c8a3f6d",
+      "sifrelenmis_veri_base64": "VCcdj089v7nc3928yx63by1yd832c09X3/CF312VM3428V9",
+      "aciklama": "DLL veya veri dosyasının gizliliği için ana içerik şifrelenir."
+    },
+    "butunluk": {
+      "algoritma": "SHA-256",
+      "hash_base64": "VCcdj089v7nc3928yx63by1yd832c09X3/CF312VM3428V9",
+      "hash_hex": "542b2f7d8b3c9a1e4f6d7c8b9a0f1e2d3c4b5a6f7e8d9c0b1a2f3e4d5c6b7a8f9e",
+      "aciklama": "Dosya değiştirilmiş mi kontrolü için bütünlük hash'i."
+    },
+    "tasima": {
+      "kodlama": "Base64",
+      "binary_veri_json_icinde": "VCcdj089v7nc3928yx63by1yd832c09X3/CF312VM3428V9",
+      "aciklama": "Şifreleme değildir; binary veriyi JSON/text içinde taşımak için kullanılır."
+    },
+    "meta_aciklama": "Bu JSON, teorik yazılım koruma/lisanslama mimarisindeki üç katmanı tek bir yapıda örneklemektedir. Gerçek uygulamada hash ve şifreli veri aynı Base64 değerini içermez."
+  }
+}
